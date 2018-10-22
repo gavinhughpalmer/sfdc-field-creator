@@ -1,0 +1,81 @@
+{
+    "field_types" : {
+        "text" : [
+            "encryptedtext",
+            "text",
+            "textarealong"
+        ],
+        "number" : [
+            "percent",
+            "number",
+            "currency"
+        ],
+        "supported_types" : [
+            "AutoNumber",
+            "Lookup",
+            "MasterDetail",
+            "Checkbox",
+            "Currency",
+            "Date",
+            "DateTime",
+            "Email",
+            "Number",
+            "Percent",
+            "Phone",
+            "Picklist",
+            "MultiselectPicklist",
+            "Text",
+            "TextArea",
+            "LongTextArea",
+            "Url"
+        ],
+        "valid_types" : [
+            "AutoNumber",
+            "Lookup",
+            "MasterDetail",
+            "MetadataRelationship",
+            "Checkbox",
+            "Currency",
+            "Date",
+            "DateTime",
+            "Email",
+            "EncryptedText",
+            "ExternalLookup",
+            "IndirectLookup",
+            "Number",
+            "Percent",
+            "Phone",
+            "Picklist",
+            "MultiselectPicklist",
+            "Summary",
+            "Text",
+            "TextArea",
+            "LongTextArea",
+            "Url",
+            "Hierarchy",
+            "File",
+            "CustomDataType",
+            "Html",
+            "Location",
+            "Time"
+        ]
+    },
+    "standard_objects" : [
+        "account",
+        "contact",
+        "opportunity",
+        "account contact relation",
+        "activity",
+        "campaign",
+        "event"
+    ],
+    "sheets_to_ignore" : [
+        "example",
+        "object access"
+    ],
+    "sfdc_metadata_xmlns" : "http://soap.sforce.com/2006/04/metadata",
+    "temp_dir" : "./tmp",
+    "poll_wait": 2,
+    "checkonly": false,
+    "enviroment_location": "./config/enviroment.json"
+}
