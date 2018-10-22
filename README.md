@@ -29,3 +29,4 @@ To use you will need to complete the config/congig.json file and the enviroment.
 * Including the object sharing table into Salesforce deployment
 * Adding something like pipenv to ensure the versions of packages that are used in the project
 * Document the solution
+* Include integration to google docs to bring in google sheets and convert that to salesforce fields
